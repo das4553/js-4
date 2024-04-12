@@ -1,9 +1,8 @@
 function num(a) {
-  let c = 2;
-  let z = 3;
-  if (a === c) {
+  
+  if (a % 2 === 0) {
     return true;
-  } else if (a === z) {
+  } else  {
     return false;
   }
 }
